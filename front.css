@@ -155,13 +155,18 @@ body {
  .toda-pagina{
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: center;
      padding-right: 30px;
      padding-left: 80px;
+     align-items: flex-start;
  }
  .carrinho-compras{
     flex-grow: 0; /*o zero determina que ele vai ter no maximo o tamanho do flex basis. os valore sao niveis de importancia que dou para os elementos*/
     flex-basis: 100px;
+    font-family: 'Manrope';
+    color: #FDFDFD;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
  }
 .art-sacola{
     background-color: #A785ED;
@@ -170,9 +175,15 @@ body {
     font-weight: bold;
     font-size: 24px;
     line-height: 150%;
+    text-align: center;
 }
-/*.sacola{
-    width: 312px;
-
-background-color: #0F1C26;
-}*/
+.sacola-vazia{
+    font-size: 20px;
+}
+.add-filmes{
+    font-size: 14px;
+    text-align: center;
+}
+.cupom{
+    font-size: 12px;
+}
